@@ -30,10 +30,13 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     // Add your code here
+
     try {
         var r = new sn_ws.RESTMessageV2('x_1547620_iplookup.IPInfo', 'GetIPInfo');
-        r.setStringParameterNoEscape('ipaddress', 'current.ip_address');
+        r.setStringParameterNoEscape('ipaddress', current.ip_address);
         r.setStringParameterNoEscape('specific_field', 'geo');
+
+		
 
         //override authentication profile 
         //authentication type ='basic'/ 'oauth2'
@@ -51,13 +54,14 @@
         var responseBody = response.getBody();
         var httpStatus = response.getStatusCode();
 
-        var responseObj = JSON.parse(responseBody);
-        current.city = responseObj.city;
-        gs.info("City = " + current.city);
-        current.update();
+		var responsiveObj = JSON.parse(responseBody);
+
+		current.city = responsiveObj.city;
+		gs.info("City =" + current.city);
+		current.update();
     } 
 	catch (err) {
-        gs.info("Uncaught error:" + err);
+		gs.info("Uncaught error:" + err);
         var message = ex.message;
     }
 
@@ -68,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d6cad7cc8321de140110b4a6feaad3e3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Populate IP Address City</sys_name>
         <sys_overrides/>
         <sys_package display_value="IPLookup" source="x_1547620_iplookup">d37d870083adda140110b4a6feaad309</sys_package>
@@ -76,7 +80,7 @@
         <sys_scope display_value="IPLookup">d37d870083adda140110b4a6feaad309</sys_scope>
         <sys_update_name>sys_script_d6cad7cc8321de140110b4a6feaad3e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-25 06:43:54</sys_updated_on>
+        <sys_updated_on>2024-10-29 00:37:56</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>

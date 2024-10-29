@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1547620_iplookup.glide.rest.outbound.debug</name>
+        <read_roles/>
+        <suffix>glide.rest.outbound.debug</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 08:27:16</sys_created_on>
+        <sys_id>8827934d83e996940110b4a6feaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1547620_iplookup.glide.rest.outbound.debug</sys_name>
+        <sys_package display_value="IPLookup" source="x_1547620_iplookup">d37d870083adda140110b4a6feaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">d37d870083adda140110b4a6feaad309</sys_scope>
+        <sys_update_name>sys_properties_8827934d83e996940110b4a6feaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 08:27:16</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=8827934d83e996940110b4a6feaad305"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="IPLookup">d37d870083adda140110b4a6feaad309</application>
+        <file_path/>
+        <instance_id>6d202e86db9a7d504162684e139619b0</instance_id>
+        <instance_name>dev205539</instance_name>
+        <name>sys_properties_8827934d83e996940110b4a6feaad305</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_1547620_iplookup.glide.rest.outbound.debug</name><read_roles/><suffix>glide.rest.outbound.debug</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 08:27:16</sys_created_on><sys_id>8827934d83e996940110b4a6feaad305</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1547620_iplookup.glide.rest.outbound.debug</sys_name><sys_package display_value="IPLookup" source="x_1547620_iplookup">d37d870083adda140110b4a6feaad309</sys_package><sys_policy/><sys_scope display_value="IPLookup">d37d870083adda140110b4a6feaad309</sys_scope><sys_update_name>sys_properties_8827934d83e996940110b4a6feaad305</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 08:27:16</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=8827934d83e996940110b4a6feaad305"/></record_update>]]></payload>
+        <payload_hash>-2142378031</payload_hash>
+        <record_name>x_1547620_iplookup.glide.rest.outbound.debug</record_name>
+        <reverted_from/>
+        <source>8c072f448325de140110b4a6feaad3ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 08:27:17</sys_created_on>
+        <sys_id>2e37174d83e996940110b4a6feaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d23c902c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 08:27:17</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>2237174dede99694f7ae78c6c604d611</update_guid>
+        <update_guid_history>2237174dede99694f7ae78c6c604d611:-2142378031</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 08:30:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>614d70d0c6834083a2cdff59a63187b1</sys_id>
+        <sys_metadata>8827934d83e996940110b4a6feaad305</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1547620_iplookup.glide.rest.outbound.debug</sys_name>
+        <sys_package display_value="IPLookup" source="x_1547620_iplookup">d37d870083adda140110b4a6feaad309</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="IPLookup">d37d870083adda140110b4a6feaad309</sys_scope>
+        <sys_scope_delete display_value="">069410d6d6034f2f80336d21ecb10d41</sys_scope_delete>
+        <sys_update_name>sys_properties_8827934d83e996940110b4a6feaad305</sys_update_name>
+        <sys_update_version display_value="sys_properties_8827934d83e996940110b4a6feaad305">2e37174d83e996940110b4a6feaad311</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 08:30:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
